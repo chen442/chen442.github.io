@@ -3,10 +3,10 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>陳璿丞ㄉ個人簡介</title>
+    <title>陳璿丞的個人簡介</title>
     <style>
         body {
-            font-family: Arial, sans-serif;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
             line-height: 1.6;
             margin: 0;
             padding: 0;
@@ -18,7 +18,7 @@
             overflow: hidden;
         }
         header {
-            background: #333;
+            background:image('SBC.jpeg');
             color: #fff;
             padding-top: 30px;
             min-height: 70px;
@@ -51,7 +51,7 @@
         }
         .showcase {
             min-height: 400px;
-            background: url('background.jpg') no-repeat 0 -400px;
+            background: url('background.jpg') no-repeat center center/cover;
             text-align: center;
             color: #fff;
         }
@@ -69,9 +69,28 @@
         }
         .content h2 {
             text-align: center;
+            color: #333;
         }
         .content p {
             text-align: justify;
+            color: #666;
+        }
+        .content ul {
+            list-style: none;
+            padding: 0;
+        }
+        .content ul li {
+            background: #f4f4f4;
+            margin: 5px 0;
+            padding: 10px;
+            border: #ccc 1px solid;
+        }
+        footer {
+            background: #333;
+            color: #fff;
+            text-align: center;
+            padding: 10px 0;
+            margin-top: 20px;
         }
     </style>
 </head>
@@ -79,7 +98,7 @@
     <header>
         <div class="container">
             <div id="branding">
-                <h1>陳璿丞ㄉ個人簡介</h1>
+                <h1>陳璿丞的個人簡介</h1>
             </div>
             <nav>
                 <ul>
@@ -100,26 +119,29 @@
     <section class="content">
         <div class="container">
             <h2>關於我</h2>
-            <p>你好，我是陳璿丞，一名忍者。我擁有20年的經驗，專注於鑽研忍術。我熱愛學習新技術並應用於實際項目中。</p>
+            <p>你好，我是陳璿丞，來自高雄科技大學，是一名忍者。我擁有多年的經驗，專注於各種忍術和戰術。我熱愛學習新技術並應用於實際任務中。</p>
             <h2>技能</h2>
             <p>我擅長以下技能：</p>
             <ul>
-                <li>技能1:爆裂鳳凰火焰</li>
-                <li>技能2:風塵絕滅刃</li>
-                <li>技能3:大便</li>
+                <li>隱身術</li>
+                <li>手裏劍投擲</li>
+                <li>忍者步法</li>
             </ul>
             <h2>作品集</h2>
             <p>以下是我一些代表性的作品：</p>
             <ul>
-                <li>作品1</li>
-                <li>作品2</li>
-                <li>作品3</li>
+                <li>任務1：潛入敵營</li>
+                <li>任務2：情報收集</li>
+                <li>任務3：保護目標</li>
             </ul>
             <h2>聯絡我</h2>
             <p>如果你對我的工作感興趣，請隨時聯絡我：</p>
-            <p>Email: [你的Email]</p>
-            <p>電話: [你的電話號碼]</p>
+            <p>Email: chenxuanchen@example.com</p>
+            <p>電話: 123-456-7890</p>
         </div>
     </section>
+    <footer>
+        <p>陳璿丞 &copy; 2023</p>
+    </footer>
 </body>
 </html>
